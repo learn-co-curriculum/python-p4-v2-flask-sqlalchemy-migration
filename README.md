@@ -190,7 +190,7 @@ $ flask shell
 ## Second Migration - Department model
 
 In this next step, we will update `models.py` to add a `Department` model. We'll
-intensionally make a mistake in assigning the singular table name `department`,
+intentionally make a mistake in assigning the singular table name `department`,
 then see how to fix this in a subsequent migration.
 
 Update `models.py` to add the `Department` class as shown:
@@ -576,7 +576,7 @@ This was the order of the migration versions that we performed:
 4. ###\_rename_address.py
 
 Suppose we decide to revert the column name from `location` back to `address`.
-We would like to undue the most recent changes performed by
+We would like to undo the most recent changes performed by
 `###_rename_address.py` and return the schema to the state it was in the
 previous version `###_rename_department.py`
 
